@@ -18,7 +18,7 @@ const projects = [
         color: "from-cyan-500 to-blue-600",
         link: "https://ai-world-routes.vercel.app/",
         github: "https://github.com/sonukumarsaw12/Ai_World_Routes",
-        image: "https://private-user-images.githubusercontent.com/177633409/479348746-439a16ea-59c3-4e35-9391-0abac2f4fa07.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjcwNTYzOTAsIm5iZiI6MTc2NzA1NjA5MCwicGF0aCI6Ii8xNzc2MzM0MDkvNDc5MzQ4NzQ2LTQzOWExNmVhLTU5YzMtNGUzNS05MzkxLTBhYmFjMmY0ZmEwNy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIzMFQwMDU0NTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wNDhiOGYyOGE2ZGExYTRjNzdlNmI2MjllMDljZjlkOWM0NTI5YTVjYzA4ODczZjJkZGIxMWU0YTk1MWQ5MTM5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.XaGWvu05rf0_njTWq1BOj3vYGRC58ijTKmAwzq4-rEc"
+        image: "https://lh3.googleusercontent.com/d/10ey-Mp6U9QHGrG-uQHOTaTaIzJrRld0D"
     },
     {
         title: "Fitness AI Coach",
@@ -36,7 +36,7 @@ const projects = [
         color: "from-emerald-500 to-teal-600",
         link: "https://skill-swap-by-sonu.vercel.app/",
         github: "https://github.com/sonukumarsaw12/Skill_Swap_By_Sonu/tree/main",
-        image: "https://private-user-images.githubusercontent.com/162047577/530868187-c63f22f1-3b6a-4b71-a8f1-5245bffcec7d.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjcwNTgyMjYsIm5iZiI6MTc2NzA1NzkyNiwicGF0aCI6Ii8xNjIwNDc1NzcvNTMwODY4MTg3LWM2M2YyMmYxLTNiNmEtNGI3MS1hOGYxLTUyNDViZmZjZWM3ZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIzMFQwMTI1MjZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02M2M1YmY1MWQzOTJmMjczZmE2NmMwOGFhNzIwY2EyNDZmYTE2ZmRlOTcyOWU3YjY4ZmQ1ZjA2ZjZhZGJkNGU4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.jbTSUfcO7raAxhOF05l7hrYMItN_UwgsPrVOIJPrljE"
+        image: "https://lh3.googleusercontent.com/d/1U4v7DjjRKPgQ9I5ewRSzp7S18TXa9TUD"
     },
     {
         title: "Movie OTT Platform",
@@ -45,7 +45,7 @@ const projects = [
         color: "from-red-500 to-pink-600",
         link: "https://tangerine-souffle-7eae56.netlify.app/",
         github: "https://github.com/sonukumarsaw12/Movie-OTT-Platform/tree/main",
-        image: "https://private-user-images.githubusercontent.com/162047577/530951846-e55c0ef3-1c3f-4ebc-b759-2cf04bbc9fa2.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjcwOTE3MDYsIm5iZiI6MTc2NzA5MTQwNiwicGF0aCI6Ii8xNjIwNDc1NzcvNTMwOTUxODQ2LWU1NWMwZWYzLTFjM2YtNGViYy1iNzU5LTJjZjA0YmJjOWZhMi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIzMFQxMDQzMjZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04ODQzYzVhNzNiNGNjMjZkNGY2ZDBiMTJkMjJiNTc3Y2NkZWJjNTcxMDQ4NTc2OGEwZThhYjYwOTE4OGIxODIzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.TznRpRJRpiFeG9RUNExizm0xCoKYs387hmpVOt8mzZ8"
+        image: "https://lh3.googleusercontent.com/d/1t4J5spsBFZDSB0brxEFAJEXuV8VDYhYJ"
     },
     {
         title: "Glowify Ecommerce",
@@ -54,7 +54,7 @@ const projects = [
         color: "from-blue-500 to-cyan-400",
         link: "https://shopping-full-stack-website.vercel.app/",
         github: "https://github.com/sonukumarsaw12/Shopping_Full_Stack_website?tab=readme-ov-file#glowify---ecommerce-website-with-admin-panel",
-        image: "https://private-user-images.githubusercontent.com/162047577/530954416-d8583861-a169-4681-b1d8-7190235dd588.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjcwOTI1MjAsIm5iZiI6MTc2NzA5MjIyMCwicGF0aCI6Ii8xNjIwNDc1NzcvNTMwOTU0NDE2LWQ4NTgzODYxLWExNjktNDY4MS1iMWQ4LTcxOTAyMzVkZDU4OC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIzMFQxMDU3MDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mYWYyNjNjZDAxZDgwMGQwYWYxMzc3ZThmMjExOTUwZTk0ZWFmZGQ0MmFlZmQxNmEzZmRlYmY2ODI1MGNiNWUxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.CdAOqbeKMfRD1bvQoobjx--_TKPTFy7X3amd48dUN2A"
+        image: "https://lh3.googleusercontent.com/d/11D366CzL2zqf0u3J8hpCi5O21mPdt7Gv"
     },
     {
         title: "Sweet Shop UI",
@@ -63,7 +63,7 @@ const projects = [
         color: "from-orange-400 to-yellow-600",
         link: "https://sweet-shop-sk.vercel.app/",
         github: "https://github.com/sonukumarsaw12/Sweet_Shop_Project",
-        image: "https://private-user-images.githubusercontent.com/162047577/526248430-b6f3b343-73e5-4910-85b8-20f7acc70097.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjcwOTI2MzksIm5iZiI6MTc2NzA5MjMzOSwicGF0aCI6Ii8xNjIwNDc1NzcvNTI2MjQ4NDMwLWI2ZjNiMzQzLTczZTUtNDkxMC04NWI4LTIwZjdhY2M3MDA5Ny5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIzMFQxMDU4NTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01YTgzYzcwMDZjYWM3ZDk4ZDk5N2I0MWEzNGNkNzBjYWI3NWQ2ZmI5ZDZmYjNjYmY4OGYzYzZiZDZjZDBmNzY1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.GU5pj2F1XSR4kC74ZPqv1LbSYae3sv2f2ppR-BULvcs"
+        image: "https://lh3.googleusercontent.com/d/1VW66ToDIef9gaY_xZ7_9EN8I_Nb7LEfW"
     },
 ];
 
