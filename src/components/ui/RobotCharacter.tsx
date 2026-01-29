@@ -71,6 +71,9 @@ export default function RobotCharacter() {
             width={400}
             height={580}
             className="object-contain drop-shadow-[0_0_40px_rgba(139,92,246,0.6)] hover:drop-shadow-[0_0_60px_rgba(34,211,238,0.8)] transition-all duration-500 hover:scale-105"
+            style={{
+              filter: 'hue-rotate(180deg) saturate(1.3) brightness(1.1)',
+            }}
             priority
           />
         </div>
