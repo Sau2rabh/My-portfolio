@@ -17,8 +17,8 @@ const roboto_mono = Roboto_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sonu Kumar Saw | Full Stack Developer",
-  description: "Immersive 3D Portfolio of Sonu Kumar Saw",
+  title: "Saurabh_Portfolio | Frontend Developer",
+  description: "Immersive Portfolio of Saurabh Anand",
 };
 
 import SmoothScroll from "@/components/SmoothScroll";

@@ -8,7 +8,6 @@ import { useLenis } from "@studio-freight/react-lenis";
 
 const navLinks = [
     { name: "About", href: "#about" },
-    { name: "Projects", href: "#projects" },
     { name: "Skills", href: "#skills" },
     { name: "Contact", href: "#contact" },
 ];
@@ -64,7 +63,7 @@ export default function Header() {
                         }}
                         className="group relative flex items-center gap-0.5 font-mono font-bold text-2xl tracking-tighter"
                     >
-                        <span className="text-white group-hover:text-neon-cyan transition-colors duration-300">Sonu</span>
+                        <span className="text-white group-hover:text-neon-cyan transition-colors duration-300">Saurabh</span>
                         <span className="text-neon-cyan animate-pulse">_</span>
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400 group-hover:from-neon-cyan group-hover:to-neon-purple transition-all duration-300">Portfolio</span>
                     </Link>

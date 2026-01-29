@@ -1,28 +1,21 @@
 "use client";
 import React from "react";
-import dynamic from "next/dynamic";
 import { motion } from "framer-motion";
 import Typewriter from "@/components/ui/Typewriter";
-import Scene from "@/components/canvas/Scene";
+import AnimatedBackground from "@/components/ui/AnimatedBackground";
+import RobotCharacter from "@/components/ui/RobotCharacter";
 import About from "@/components/ui/About";
-import Projects from "@/components/ui/Projects";
+
 import Skills from "@/components/ui/Skills";
 import Contact from "@/components/ui/Contact";
 import Footer from "@/components/ui/Footer";
 import { ArrowRight, FileText, Github, Linkedin, Mail } from "lucide-react";
 import { useLenis } from "@studio-freight/react-lenis";
 
-
-
-// Lazy load HeroModel
-const HeroModel = dynamic(() => import("@/components/canvas/HeroModel"), { ssr: false });
-
 export default function Home() {
   const lenis = useLenis();
 
-  const handleScrollToProjects = () => {
-    lenis?.scrollTo("#projects", { duration: 1.5 });
-  };
+
 
   return (
     <main className="relative w-full overflow-x-hidden bg-black text-white selection:bg-neon-cyan selection:text-black">
@@ -42,9 +35,8 @@ export default function Home() {
 
         {/* Background Elements */}
         <div className="absolute inset-0 z-0">
-          <Scene className="w-full h-full">
-            <HeroModel />
-          </Scene>
+          <AnimatedBackground />
+          <RobotCharacter />
         </div>
 
         {/* Content Container */}
@@ -79,9 +71,9 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white mb-6 leading-tight"
             >
-              Sonu Kumar{" "}
+              Saurabh{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-200 to-gray-400">
-                Saw
+                Anand
               </span>
             </motion.h1>
 
@@ -96,11 +88,8 @@ export default function Home() {
               <div className="text-cyan-400 font-bold drop-shadow-[0_0_15px_rgba(34,211,238,0.4)]">
                 <Typewriter
                   words={[
-                    "Software Developer",
-                    "Web Developer",
-                    "Full Stack Developer",
-                    "Data Analyst",
-                    "Problem Solver"
+                    "Frontend Developer",
+                    "QA Engineer"
                   ]}
                   cursorClassName="bg-cyan-400 w-[3px]"
                 />
@@ -114,7 +103,7 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="text-gray-400 max-w-xl text-base md:text-lg leading-relaxed mb-10 font-light"
             >
-              I build <span className="text-gray-200 font-medium">scalable, high-performance</span> web applications and turn complex problems into <span className="text-gray-200 font-medium">clean, user-focused solutions</span>.
+              Develop <span className="text-gray-200 font-medium">responsive React web applications</span>, integrate <span className="text-gray-200 font-medium">REST APIs</span>, optimize performance and usability, and ensure quality through <span className="text-gray-200 font-medium">testing and bug fixes</span>.
             </motion.p>
 
             {/* Buttons */}
@@ -124,25 +113,16 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.5 }}
               className="flex flex-col sm:flex-row gap-4 sm:gap-5"
             >
-              {/* Primary Button */}
-              <button
-                onClick={handleScrollToProjects}
-                className="group relative px-6 md:px-8 py-3 md:py-4 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-xl text-white font-bold text-base md:text-lg shadow-lg shadow-cyan-500/25 overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-cyan-500/40 hover:-translate-y-1 active:scale-95"
-              >
-                <span className="relative z-10 flex items-center justify-center gap-2">
-                  View My Work <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
-                </span>
-                <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-              </button>
-
-              {/* Secondary Button */}
+              {/* Resume Button */}
               <a
-                href="https://drive.google.com/file/d/1SqGFb1uuDfIbZ5ijYUHDTNiqrTqOlWRc/view?usp=sharing"
+                href="https://drive.google.com/file/d/1OR3fMds67PkkBRHL8_P-ywE33hMwQmWE/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-6 md:px-8 py-3 md:py-4 bg-transparent border border-white/20 rounded-xl text-white font-medium text-base md:text-lg hover:bg-white/5 hover:border-white/40 transition-all duration-300 hover:-translate-y-1 active:scale-95 flex items-center justify-center gap-2 group"
+                className="px-6 md:px-8 py-3 md:py-4 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-xl text-white font-bold text-base md:text-lg shadow-lg shadow-cyan-500/25 overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-cyan-500/40 hover:-translate-y-1 active:scale-95 flex items-center justify-center gap-2 group"
               >
-                My Resume <FileText size={20} className="group-hover:text-cyan-300 transition-colors" />
+                <span className="relative z-10 flex items-center justify-center gap-2">
+                  My Resume <FileText size={20} className="group-hover:text-cyan-300 transition-colors" />
+                </span>
               </a>
             </motion.div>
 
@@ -153,24 +133,15 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.6 }}
               className="flex gap-6 mt-12 pl-1"
             >
-              <a href="https://github.com/sonukumarsaw12" target="_blank" rel="noopener noreferrer" className="group">
+              <a href="https://github.com/Sau2rabh" target="_blank" rel="noopener noreferrer" className="group">
                 <Github className="text-gray-500 w-6 h-6 group-hover:text-white group-hover:scale-110 transition-all cursor-pointer group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.5)]" />
               </a>
-              <a href="https://www.linkedin.com/in/sonu-kumar-saw-24a426242/" target="_blank" rel="noopener noreferrer" className="group">
+              <a href="https://www.linkedin.com/in/saurabh-anand-113271249" target="_blank" rel="noopener noreferrer" className="group">
                 <Linkedin className="text-gray-500 w-6 h-6 group-hover:text-cyan-400 group-hover:scale-110 transition-all cursor-pointer group-hover:drop-shadow-[0_0_8px_rgba(34,211,238,0.5)]" />
               </a>
-              <a href="https://leetcode.com/u/sonukumarsaw12/" target="_blank" rel="noopener noreferrer" className="group">
-                <svg
-                  viewBox="0 0 24 24"
-                  className="w-6 h-6 fill-gray-500 group-hover:fill-[#FFA116] transition-all group-hover:scale-110"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414 0-1.953-.54-.539-1.413-.539-1.953 0l-2.396 2.392c-1.144 1.144-3.03 1.157-4.186.04L7.135 17.5l-4.24-4.157c-.127-.126-.23-.272-.303-.432-.073-.16-.113-.332-.119-.506l-.014-.4a4.137 4.137 0 0 1 .491-1.968 4.093 4.093 0 0 1 1.076-1.39l3.854-4.126 4.377-4.517c.18-.186.425-.289.682-.289s.502.103.682.289l8.061 8.062c.54.54 0 1.414 0 1.953s-1.414.54-1.953 0L13.483 0zM22.186 15.422c-.11-.563-.566-1.011-1.143-1.011h-6.14a1.34 1.34 0 0 0-1.34 1.34c0 .739.601 1.34 1.34 1.34h6.14c.577 0 1.033-.448 1.143-1.011z" />
-                </svg>
-              </a>
-              <a href="mailto:skrajsonu6200@gmail.com" className="group">
+              <a href="mailto:royalking6993@gmail.com" className="group">
                 <Mail className="text-gray-500 w-6 h-6 group-hover:text-red-500 group-hover:scale-110 transition-all cursor-pointer group-hover:drop-shadow-[0_0_8px_rgba(239,68,68,0.5)]" />
-              </a>
+              </a> 
             </motion.div>
           </motion.div>
 
@@ -184,7 +155,7 @@ export default function Home() {
       </section>
 
       <About />
-      <Projects />
+
       <Skills />
       <Contact />
       <Footer />

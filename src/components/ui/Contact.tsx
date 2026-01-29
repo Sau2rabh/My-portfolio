@@ -79,15 +79,15 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <p className="text-xs text-gray-500 uppercase tracking-widest">Email Me</p>
-                                    <p className="text-white font-medium">skrajsonu6200@gmail.com</p>
+                                    <p className="text-white font-medium">royalking6993@gmail.com</p>
                                 </div>
                             </div>
                         </div>
 
                         <div className="flex gap-4">
                             {[
-                                { icon: Github, href: "https://github.com/sonukumarsaw12", color: "hover:text-white" },
-                                { icon: Linkedin, href: "https://www.linkedin.com/in/sonu-kumar-saw-24a426242/", color: "hover:text-blue-400" }
+                                { icon: Github, href: "https://github.com/Sau2rabh", color: "hover:text-white" },
+                                { icon: Linkedin, href: "https://www.linkedin.com/in/saurabh-anand-113271249", color: "hover:text-blue-400" }
                             ].map((social, i) => (
                                 <motion.a
                                     key={i}

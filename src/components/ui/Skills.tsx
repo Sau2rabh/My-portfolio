@@ -8,24 +8,29 @@ import StarField from "./StarField";
 
 const skillCategories = [
     {
-        title: "Languages",
-        icon: <Terminal className="text-cyan-400" size={20} />,
-        skills: ["C++", "Data Structure & Algorithm", "Java", "Python", "JavaScript"]
+        title: "Frontend Development",
+        icon: <Layout className="text-cyan-400" size={20} />,
+        skills: ["HTML", "CSS", "JavaScript", "React.js"]
     },
     {
-        title: "Web Technologies",
-        icon: <Layout className="text-blue-400" size={20} />,
-        skills: ["React.js", "Next.js", "Tailwind CSS", "MongoDB", "Node.js", "Express.js", "Socket.io", "WebRTC", "JWT"]
+        title: "Web Development",
+        icon: <Terminal className="text-blue-400" size={20} />,
+        skills: ["Node.js", "HTML", "CSS", "JavaScript", "React.js"]
     },
     {
-        title: "Others",
-        icon: <Server className="text-purple-400" size={20} />,
-        skills: ["OOPS", "Computer Networks", "DBMS", "Operating System", "Excel", "PowerBI"]
-    },
-    {
-        title: "Database, Cloud & Deployment",
+        title: "Database",
         icon: <Database className="text-emerald-400" size={20} />,
-        skills: ["MongoDB", "SQL", "Vercel", "Git & GitHub", "Render"]
+        skills: ["MongoDB", "SQL"]
+    },
+    {
+        title: "Testing & QA",
+        icon: <Server className="text-purple-400" size={20} />,
+        skills: ["Manual Testing", "Test Case Writing", "Bug Reporting", "API Testing (Postman)", "Basic Knowledge of SDLC & STLC"]
+    },
+    {
+        title: "Developer Tools",
+        icon: <Cpu className="text-orange-400" size={20} />,
+        skills: ["Vercel", "Power BI", "Git", "GitHub", "Postman"]
     }
 ];
 
@@ -61,7 +66,7 @@ export default function Skills() {
                 </div>
 
                 {/* 3D Floating Icons Container */}
-                <div className="h-[400px] md:h-[500px] relative mb-12">
+                <div className="h-[500px] md:h-[550px] relative mb-16 mt-8 py-12">
                     <FloatingIcons />
                 </div>
 

@@ -36,21 +36,18 @@ export default function About() {
                         </div>
 
                         <p className="text-gray-400 mb-4 text-base md:text-lg leading-relaxed font-light">
-                            I am a <span className="text-cyan-400 font-medium">Bachelor of Engineering</span> student at <span className="text-white font-medium">Chandigarh University</span> with a strong interest in <span className="text-white">Full Stack Web Development</span> and problem solving.
+                            Frontend developer with working knowledge of <span className="text-cyan-400 font-medium">quality assurance and software testing practices</span>, passionate about building clean, responsive, and user-focused web applications using <span className="text-white">HTML, CSS, and JavaScript</span>.
                         </p>
                         <p className="text-gray-400 mb-4 text-base md:text-lg leading-relaxed font-light">
-                            I have hands-on experience building real-world web applications using <span className="text-white">React, Next.js, Node.js, Express, MongoDB, and SQL</span>. I enjoy working across the full development lifecycle — from designing clean user interfaces to implementing efficient backend logic and APIs.
+                            Experienced in developing <span className="text-white">dynamic UI components with React.js</span>, optimizing performance, and ensuring smooth user experiences across devices. Familiar with <span className="text-cyan-400 font-medium">REST API integration</span>, basic testing workflows, and identifying and resolving bugs to improve application quality.
                         </p>
-                        <p className="text-gray-400 mb-4 text-base md:text-lg leading-relaxed font-light">
-                            I actively practice <span className="text-purple-400 font-medium">Data Structures and Algorithms</span> and focus on writing clean, scalable, and maintainable code. I am motivated, self-driven, and continuously learning new technologies to improve my skills.
-                        </p>
-                        <p className="text-gray-400 mb-8 text-base md:text-lg leading-relaxed font-light italic border-l-2 border-cyan-500/30 pl-4">
-                            I am currently seeking <span className="text-cyan-400 font-medium">internship or entry-level opportunities</span> where I can apply my skills, learn from experienced engineers, and contribute to building impactful software products.
+                        <p className="text-gray-400 mb-8 text-base md:text-lg leading-relaxed font-light">
+                            Focused on creating visually appealing, functional, and reliable web applications, with a growing interest in <span className="text-purple-400 font-medium">data analytics</span>.
                         </p>
 
                         {/* Tech Stack Pills */}
                         <div className="flex flex-wrap gap-3">
-                            {["C++", "DSA", "Java", "Python", "React.js", "Node.js", "MongoDB", "SQL", "AWS", "Git", "EXCEL", "POWER-BI"].map((tech, i) => (
+                            {["HTML", "CSS", "JavaScript", "React.js", "Node.js", "MongoDB", "SQL", "Manual Testing", "Test Case Writing", "Bug Reporting", "API Testing", "Postman", "Git", "GitHub", "Vercel", "Power BI"].map((tech, i) => (
                                 <motion.span
                                     key={tech}
                                     initial={{ opacity: 0, y: 10 }}
@@ -89,12 +86,14 @@ export default function About() {
 
                             {/* Code Content */}
                             <div className="font-mono text-sm leading-8">
-                                <div className="text-purple-400">const <span className="text-blue-400">Sonu</span> = <span className="text-yellow-400">{"{"}</span></div>
+                                <div className="text-purple-400">const <span className="text-blue-400">Saurabh</span> = <span className="text-yellow-400">{"{"}</span></div>
                                 <div className="pl-6 text-gray-300">education: <span className="text-green-400">&quot;Chandigarh University&quot;</span>,</div>
-                                <div className="pl-6 text-gray-300">experience: <span className="text-green-400">&quot;HighRadius Intern&quot;</span>,</div>
-                                <div className="pl-6 text-gray-300">skills: <span className="text-yellow-400">[&quot;C++&quot;, &quot;DSA&quot;, &quot;Full Stack Web Development&quot;]</span>,</div>
+                                <div className="pl-6 text-gray-300">degree: <span className="text-green-400">&quot;B.E in Computer Science&quot;</span>,</div>
+                                <div className="pl-6 text-gray-300">experience: <span className="text-green-400">&quot;Frontend Developer & QA Associate&quot;</span>,</div>
+                                <div className="pl-6 text-gray-300">company: <span className="text-green-400">&quot;Sub Tech Pvt. Limited&quot;</span>,</div>
+                                <div className="pl-6 text-gray-300">skills: <span className="text-yellow-400">[&quot;React.js&quot;, &quot;Testing & QA&quot;, &quot;REST APIs&quot;]</span>,</div>
                                 <div className="pl-6 text-gray-300">status: <span className="text-green-400">&quot;Open to Work&quot;</span>,</div>
-                                <div className="pl-6 text-gray-300">loves: <span className="text-cyan-400">()</span> <span className="text-purple-400">=&gt;</span> <span className="text-yellow-400">&quot;Innovation&quot;</span></div>
+                                <div className="pl-6 text-gray-300">loves: <span className="text-cyan-400">()</span> <span className="text-purple-400">=&gt;</span> <span className="text-yellow-400">&quot;Building Quality Software&quot;</span></div>
                                 <div className="text-yellow-400">{"}"}</div>
                             </div>
 

@@ -18,7 +18,7 @@ export default function Footer() {
                 <div className="flex flex-col md:flex-row justify-between items-center gap-12 mb-12">
                     <div className="text-center md:text-left">
                         <div className="flex items-center justify-center md:justify-start gap-1 font-mono font-bold text-2xl tracking-tighter mb-4">
-                            <span className="text-white">Sonu</span>
+                            <span className="text-white">Saurabh</span>
                             <span className="text-cyan-400">_</span>
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">Portfolio</span>
                         </div>
@@ -29,9 +29,9 @@ export default function Footer() {
 
                     <div className="flex gap-4">
                         {[
-                            { icon: Github, href: "https://github.com/sonukumarsaw12" },
-                            { icon: Linkedin, href: "https://www.linkedin.com/in/sonu-kumar-saw-24a426242/" },
-                            { icon: Mail, href: "mailto:skrajsonu6200@gmail.com" }
+                            { icon: Github, href: "https://github.com/Sau2rabh" },
+                            { icon: Linkedin, href: "https://www.linkedin.com/in/saurabh-anand-113271249" },
+                            { icon: Mail, href: "mailto:royalking6993@gmail.com" }
                         ].map((social, i) => (
                             <a
                                 key={i}
@@ -48,7 +48,7 @@ export default function Footer() {
 
                 <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
                     <p className="text-gray-600 text-sm font-mono">
-                        © {new Date().getFullYear()} Sonu Kumar Saw. Built with dedication and creativity.
+                        © {new Date().getFullYear()} Saurabh Anand. Built with dedication and creativity.
                     </p>
 
                     <button
